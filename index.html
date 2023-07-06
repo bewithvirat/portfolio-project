@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virat - Developer portfolio</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+body{
+background-color: rgb(0,0,33);
+color:white;
+font-family: 'poppins' sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(221, 205, 205);
+}
+nav ul li a:hover{
+    color:rgb(153, 153, 225);
+    font-size:1.0rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height:1.2px;
+    margin:40px 84px;
+}
+.left{
+    font-size:2rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+     margin:125px 0;
+}
+.firstsection img{
+    width:60%;
+    margin:60px 0;
+    opacity:50;
+}
+.firstsection >div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2.7rem;
+}
+.leftsection .buttons{
+    padding:50px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background:rgb(208, 32, 224);
+    color:white;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.rightsection img{
+    width: 110%;
+    height:60vh;
+}
+.purple{
+ color: rgb(186, 21, 186);
+}
+.text-gray{
+color:grey;
+
+}
+#element{
+    color: rgb(186, 21, 186);
+
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height:80vh;
+}
+.secondsection h1{
+font-size: 1.7rem;
+}
+.secondsection .box{
+    background: rgb(240, 240, 240);
+    width:77vw;
+    height: 2px;
+    margin:56px 0;
+    display:flex;
+}
+.secondsection .vertical{
+    height:98px;
+    width:1px;
+    background-color: white;
+    margin:0 120px;
+}
+.image-top{
+width:40px;
+position: relative;
+top:-23px;
+left:-20px;
+}
+.vertical-title{
+    position: relative;
+    top:75px;
+    width: 150px;
+    font-size:17px
+}
+.verticle-desc{
+position:relative;
+top:100px;
+color: grey;
+width:150px;
+font-size:11px;
+}
+footer{
+    background-color: rgb(69, 219, 191);
+       
+}
+.footer{
+    display:flex;
+    padding:33px 140px;
+    margin-left: -40px;;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width:223px;
+}
+footer .footer-rights{
+text-align: center;
+color:rgb(76, 14, 14);
+padding:12px 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="left">Virat Sharma portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+        </header>
+
+        <main>
+            <section class="firstsection">
+             <div class="leftsection">
+               
+                Hii my name is <span class="purple"> Virat</span>
+                   
+              <div> and I am a web Developer</div>
+             
+              <span id="element"></span>
+              <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit GitHub</button>
+                </div>
+             </div>
+                <div class="rightsection">
+                    <img src="images/webpic.jpg" alt="Developer" >
+                </div>
+                </section>
+                <hr>
+                <section class="secondsection">
+                    <span class="text-gray">What I have done so far</span>
+                    <h1>I am a Fresher</h1>
+
+                    <div class="box">
+                       <div class="vertical">
+                        <img class="image-top"src="images/html2.jpeg" alt="html" >
+                      <div class="vertical-title">
+                        HTML  & CSS Developer (2019-2020)
+                    </div>
+                    <div  class="verticle-desc">
+                        “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”
+                    </div>
+                    </div>    <div class="vertical">
+                        <img class="image-top"src="images/front.jpeg" alt="html" >
+                      <div class="vertical-title">
+                        Frontend-Developer (2020)
+                    </div>
+                    <div  class="verticle-desc">
+                        If there  one thing you learn by working on a lot of different Web sites, it’s that almost any design idea–no matter how appallingly bad–can be made usable in the right circumstances, with enough effort.”
+                    </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top"src="images/back2.jpeg" alt="html" >
+                      <div class="vertical-title">
+                        Backend-Developer <span>(2020-2023)</span>
+                    </div>
+                    <div  class="verticle-desc">
+                        Responsive Web Design always plays important role whenever going to promote your website
+                    </div>
+                    </div>    <div class="vertical">
+                        <img class="image-top"src="images/full3.jpeg" alt="html" >
+                      <div class="vertical-title">
+                        Fullstack-Developer (current)
+                    </div>
+                    <div  class="verticle-desc">
+                        A successful website does three things:
+                        It attracts the right kinds of visitors.
+                        Guides them to the main services or product you offer.
+                        Collect Contact details for future ongoing relation.”
+                    </div>
+                    </div>
+                    <div class="vertical">
+
+                    </div>
+                     
+                       
+              </div>
+                    
+                    </section>
+         </main>
+  
+            <footer>
+         <div class="footer">
+                <div class="footer-First">
+                    <h3> virat Developer Portfolio</h3>
+                </div>
+                <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Telegram</li>
+                </ul>
+                </div>
+                <div class="footer-Third">
+                    <ul>
+                        <li><img src="images/insta.jpeg" alt="" width="50px"></li>
+                        <li>@i_am_virat.119</li>
+                    </ul>
+                </div>
+                <ul>
+                    <liFreelacing</li>
+                    <li>Portfolio</li>
+                    <li>Projects</li>
+                    <li>Interviews</li>
+                    <li>Email</li>
+                </ul>
+                </div>
+                
+<div class="footer-rights">
+    Copyright &#169; www.viratportfolio.com | All rights Reserved
+</div>
+                </footer>
+
+
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full-stack Developer','Frontend-Developer', 'Backend-Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</body>
+</html>
